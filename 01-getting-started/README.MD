@@ -40,8 +40,7 @@ def invokedb(db):
     db.execute("DELETE FROM employee WHERE rank='Principal Developer'")
 
 
-if __name__ == "__main__":
-    postgresDbUtil = PostGresDbUtil()
-    invokedb(postgresDbUtil.providepostgresbatabase())
+if __name__ == "__main__": 
+    invokedb(PostGresDbUtil().providepostgresbatabase())
 
 ```

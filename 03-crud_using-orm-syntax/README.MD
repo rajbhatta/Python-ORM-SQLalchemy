@@ -78,8 +78,7 @@ def invokedb(db):
 
 
 if __name__ == "__main__":
-    postgresDbUtil = PostGresDbUtil()
-    invokedb(postgresDbUtil.providepostgresbatabase())
+    invokedb(PostGresDbUtil().providepostgresbatabase())
 
 ```
 
