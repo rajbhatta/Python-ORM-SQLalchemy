@@ -31,4 +31,4 @@ def invokedb(db):
 
 
 if __name__ == "__main__":
-    invokedb(PostGresDbUtil().providepostgresbatabase())
+    invokedb(PostGresDbUtil.providepostgresbatabase())
